@@ -1,16 +1,31 @@
 <?php
-
-class Produto
+class Produto1
 {
-    public $shampooautomotivo;
-    public $ceraautomotiva;
-    public $limpavidros;
-    public $panodemicrofibra;
-    public $desengraxante;
-    public $limpapneus;
-    public $espumalimpadorainterna;
-    public $aspiradorportatilparacarro;
-    public $siliconeemgelouspray;
-    public $pulverizadorouborrifador;
+   public $nome;
+   public $descricao;
+   public $preco;
+   public $cor;
+   public $cod_barras;
+   public $categoria;
+   public $marca;
+   public $volumeouquantidade;
+   public $aplicacaofinalidade;
+   public $mododeuso;
 }
+
+class Produto2
+{
+   public $nome;
+   public $descricao;
+   public $preco;
+   public $cor;
+   public $cod_barras;
+   public $categoria;
+   public $marca;
+   public $volumeouquantidade;
+   public $aplicacaofinalidade;
+   public $mododeuso;
+}
+
+
 ?>

@@ -12,6 +12,11 @@ class Cliente{
     public $cidade;
     public $estado;
     public $cep;
+
+
+    public function SomarTotal($totalproduto, $totalservico) {
+        return $soma = $totalproduto + $totalservico;
+    }
 }
 
 ?>

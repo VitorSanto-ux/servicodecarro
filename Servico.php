@@ -2,7 +2,7 @@
 
 class Servico
 {
-    public $trocadeoleo;
+    public $nome;
     public $descricao;
     public $duracao;
     public $preco;
